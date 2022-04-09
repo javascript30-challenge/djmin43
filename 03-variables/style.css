@@ -1,3 +1,22 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+  --turn: 0deg;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  /* transform: rotate(var(--turn)); */
+  transform: rotate(var(--turn));
+}
+
+.hl {
+  color: var(--base);
+}
+
 body {
   text-align: center;
   background: #193549;
